@@ -1,3 +1,5 @@
+![alt text](./img/drap3r.jpg "logo")
+
 # DRAP3R
 Direct Read and Analysis of RNA Polymerase III derived RNAs
 
