@@ -1,0 +1,7 @@
+chromosome	start	end	strand	gene
+chr16	3152898	3152914	+	element1
+chr16	3152915	3152925	+	A-box
+chr16	3152926	3152947	+	element2
+chr16	3152948	3152960	+	B-box
+chr16	3152961	3152989	+	element3
+chr16	3152990	3152994	+	polyT

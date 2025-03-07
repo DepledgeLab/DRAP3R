@@ -1,0 +1,9 @@
+chromosome	start	end	strand	gene
+chr1	22255657	22255661	-	polyT
+chr1	22255662	22255703	-	element3
+chr1	22255704	22255715	-	B-box
+chr1	22255716	22255723	-	element2
+chr1	22255724	22255736	-	A-box
+chr1	22255737	22255764	-	element1
+chr1	22255765	22255769	-	TATA-box
+chr1	22255770	22255780	-	element0

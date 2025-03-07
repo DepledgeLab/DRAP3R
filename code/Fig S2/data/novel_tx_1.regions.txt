@@ -1,0 +1,7 @@
+chromosome	start	end	strand	gene
+chr17	17960225	17960236	+	element1
+chr17	17960236	17960247	+	A-box
+chr17	17960247	17960280	+	element2
+chr17	17960280	17960291	+	B-box
+chr17	17960291	17960337	+	element3
+chr17	17960337	17960341	+	polyT

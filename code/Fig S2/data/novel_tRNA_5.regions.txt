@@ -1,0 +1,7 @@
+chromosome	start	end	strand	gene
+chr11	68460132	68460136	-	polyT
+chr11	68460136	68460155	-	element4
+chr11	68460155	68460166	-	B-box
+chr11	68460167	68460172	-	element2
+chr11	68460173	68460184	-	A-box
+chr11	68460185	68460222	-	element1

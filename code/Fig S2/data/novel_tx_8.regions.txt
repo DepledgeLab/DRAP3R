@@ -1,0 +1,7 @@
+chromosome	start	end	strand	gene
+chr12	93243600	93243604	-	polyT
+chr12	93243604	93243656	-	element3
+chr12	93243656	93243667	-	B-box
+chr12	93243667	93243698	-	element2
+chr12	93243698	93243709	-	A-box
+chr12	93243709	93243720	-	element1

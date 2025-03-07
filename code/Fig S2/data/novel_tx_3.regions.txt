@@ -1,0 +1,7 @@
+chromosome	start	end	strand	gene
+chr7	18038540	18038543	+	element1
+chr7	18038543	18038554	+	A-box
+chr7	18038554	18038615	+	element2
+chr7	18038615	18038626	+	B-box
+chr7	18038626	18038663	+	element3
+chr7	18038663	18038668	+	polyT

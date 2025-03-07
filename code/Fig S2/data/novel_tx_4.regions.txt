@@ -1,0 +1,7 @@
+chromosome	start	end	strand	gene
+chr10	49387375	49387385	+	element1
+chr10	49387385	49387396	+	A-box
+chr10	49387396	49387432	+	element2
+chr10	49387432	49387443	+	B-box
+chr10	49387443	49387490	+	element3
+chr10	49387490	49387495	+	polyT

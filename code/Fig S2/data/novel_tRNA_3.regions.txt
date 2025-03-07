@@ -1,0 +1,7 @@
+chromosome	start	end	strand	gene
+chr14	20633008	20633012	+	element1
+chr14	20633013	20633025	+	A-box
+chr14	20633026	20633056	+	element2
+chr14	20633057	20633067	+	B-box
+chr14	20633068	20633107	+	element3
+chr14	20633107	20633112	+	polyT
