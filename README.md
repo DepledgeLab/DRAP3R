@@ -6,6 +6,18 @@ DRAP3R (Direct Read and Analysis of RNA Polymerase III derived RNAs) is a custom
 
 This repository contains all data files and code needed to reproduce the figures and analyses shown in our manuscript, which is currently available on bioRxiv.
 
+
+### Folder descriptions
+
+Code:
+
+
+<br>
+
+Databases: 
+- GTF file for Pol III transcribed RNAs
+- mature tRNA sequences in multi-fasta format (includes 5' and 3' splint adapters)
+
 ## Citation
 If you find this work useful, please cite:
 
