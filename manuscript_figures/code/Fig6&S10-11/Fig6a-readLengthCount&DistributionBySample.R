@@ -2,14 +2,13 @@ library(ggplot2)
 library(dplyr)
 library(patchwork)
 
-#setwd("I:/Dropbox/DRAP3R/final_figures/Fig 4 & S7/read count & violin plot/")
-setwd("C:/Users/depledgd/Dropbox/DRAP3R/final_figures/Fig 4 & S7/read count & violin plot/")
+setwd("")
 
-INF1 <- read.table("ARPE19_HSV1_6hpi-2.sup-pseU.notrim.dorado.0.7.0.id.length.txt", sep="\t", header=T, stringsAsFactors=FALSE)
-INF2 <- read.table("ARPE19_HSV1_6hpi-3.sup-pseU.notrim.dorado.0.7.0.id.length.txt", sep="\t", header=T, stringsAsFactors=FALSE)
-INF3 <- read.table("ARPE19-HSV1-12hpi-1.sup-pseU.notrim.dorado.0.7.0.id.length.txt", sep="\t", header=T, stringsAsFactors=FALSE)
-INF4 <- read.table("ARPE19-HSV1-12hpi-3.sup-pseU.notrim.dorado.0.7.0.id.length.txt", sep="\t", header=T, stringsAsFactors=FALSE)
-IFN1 <- read.table("ARPE19-IFNag-24h-1.sup-pseU.notrim.dorado.0.7.0.id.length.txt", sep="\t", header=T, stringsAsFactors=FALSE)
+INF1 <- read.table("ARPE19_HSV1_6hpi-1.sup-pseU.notrim.id.length.txt", sep="\t", header=T, stringsAsFactors=FALSE)
+INF2 <- read.table("ARPE19_HSV1_6hpi-2.sup-pseU.notrim.id.length.txt", sep="\t", header=T, stringsAsFactors=FALSE)
+INF3 <- read.table("ARPE19-HSV1-12hpi-1.sup-pseU.notrim.id.length.txt", sep="\t", header=T, stringsAsFactors=FALSE)
+INF4 <- read.table("ARPE19-HSV1-12hpi-3.sup-pseU.notrim.id.length.txt", sep="\t", header=T, stringsAsFactors=FALSE)
+IFN1 <- read.table("ARPE19-IFNag-1.sup-pseU.notrim.id.length.txt", sep="\t", header=T, stringsAsFactors=FALSE)
 
 INF1$dataset <- "HSV1 6hpi #1"
 INF2$dataset <- "HSV1 6hpi #2"
@@ -66,7 +65,7 @@ combined_plot <- b + p + plot_layout(ncol = 2, widths = c(0.5, 0.5))
 
 print(combined_plot)
 
-pdf(file = "HSV1 readLengthCount&DistributionBySampleNew.pdf", width = 10, height = 7)
+pdf(file = "HSV1_readLengthCount&DistributionBySample.pdf", width = 10, height = 7)
 combined_plot
 dev.off()
 
