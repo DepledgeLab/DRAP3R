@@ -40,11 +40,11 @@ Source data for all scripts are publicly available - see below for specific deta
 <br>
 
 
-<b>Figure 5:</b> Source Data file and [Zenodo repo X](XXX)
+<b>Figure 5:</b> Source Data file and [Zenodo repo 4](https://doi.org/10.5281/zenodo.17865866)
 
-- <b>Figure S8:</b> Source Data file and [Zenodo repo X](XXX)
+- <b>Figure S8:</b> Source Data file and [Zenodo repo 4](https://doi.org/10.5281/zenodo.17865866)
 
-- <b>Figure S9:</b> Source Data file and [Zenodo repo X](XXX)
+- <b>Figure S9:</b> Source Data file and [Zenodo repo 4](https://doi.org/10.5281/zenodo.17865866)
 
 <br>
 
