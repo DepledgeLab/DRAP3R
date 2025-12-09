@@ -7,11 +7,10 @@ library(ggplot2)
 library(purrr)
 
 # Set working directory
-#setwd("C:/Users/depledgd/Dropbox/DRAP3R/Fig 3 - further pseU analysis/")
-setwd("D:/Dropbox/DRAP3R/Fig 3 - further pseU analysis/")
+#setwd("")
 
-#bed <- read.table("tRNA-splintdb/ARPE19_UNINF_tRNA-24h-4.sup-pseU_bwa_W13k6T20.SR.merged.primary.splint_tRNAdb.modFiltU.0.98.sorted.bed", 
-bed <- read.table("tRNA-splintdb/ARPE19_UNINF_24h-4.sup-pseU_bwa_W13k6T20.SR.merged.primary.splint_tRNAdb.modFiltU.0.98.sorted.bed", 
+#bed <- read.table("tRNA-splintdb/ARPE19_nanotRNA-uninf-2.sup-pseU_bwa_W13k6T20.SR.merged.primary.splint_tRNAdb.modFilt.0.98.sorted.bed", 
+bed <- read.table("tRNA-splintdb/ARPE19_uninf-2.sup-pseU_bwa_W13k6T20.SR.merged.primary.splint_tRNAdb.modFilt.0.98.sorted.bed", 
                                     
                                     header = FALSE, sep = "\t", stringsAsFactors = FALSE, quote = "") %>%
   rename(coverage = V10, mod_freq = V11, Nmod = V12, 
@@ -100,56 +99,3 @@ ggplot(Glu, aes(x = position, y = factor(ids, levels = rev(unique(ids))), fill =
         axis.text.x = element_text(margin = margin(t = 0), angle = 90, hjust = 1, size = 14))
 dev.off()
 
-
-
-
-
-
-
-
-p13 <- df1[grep("37", df1$position),]
-p20 <- df1[grep("44", df1$position),]
-p27 <- df1[grep("51|52", df1$position),]
-p31 <- df1[grep("55|56", df1$position),]
-p35 <- df1[grep("59|60", df1$position),]
-p55 <- df1[grep("78|79|80", df1$position),]
-p65 <- df1[grep("88|89|90", df1$position),]
-
-# Add a category column to each subset
-p13$category <- "p 13"
-p20$category <- "p 20"
-p27$category <- "p 27"
-p31$category <- "p 31"
-p35$category <- "p 35"
-p55$category <- "p 55"
-p65$category <- "p 65"
-
-# Combine all subsets into a single dataframe
-combined_df <- rbind(p13, p20, p27, p31, p35, p55, p65)
-combined_df <- combined_df[!is.na(combined_df$mod_freq) & combined_df$mod_freq >= 5, ]
-
-# Boxplot
-modplot<-ggplot(combined_df, aes(x = category, y = mod_freq)) +
-  geom_boxplot(outlier.shape = NA, alpha = 0.5, color = "darkblue") +  # Remove fill, add black outline
-  geom_jitter(aes(fill = mod_freq), width = 0.2, size = 1, alpha = 0.7, 
-              shape = 21, color = "black", stroke = 0.8) + 
-  scale_fill_gradient(low = "white", high = "darkblue") +  # Color points by value
-  theme_minimal() +
-  labs(x = "", 
-       y = "stoichiometry", 
-       color = "stoichiometry") +  
-  theme(
-    panel.grid.major = element_blank(),   # Remove major grid lines
-    panel.grid.minor = element_blank(),   # Remove minor grid lines
-    panel.border = element_blank(),       # Remove box around plot
-    axis.line = element_line(color = "black", linewidth = 0.75),  # Thicker axis lines
-    axis.title = element_text(size = 18),  # Increase axis title text size
-    axis.text = element_text(color = "black", size = 18),   # Increase axis tick labels text size
-    plot.title = element_text(size = 18, face = "bold"),  # Increase plot title size
-    legend.position = "none"              # Remove the legend
-  )
-
-
-pdf("pseu_modlevel_splintDB_nano_ARPE19-4.pdf", width = 7, height = 4)
-modplot
-dev.off()
