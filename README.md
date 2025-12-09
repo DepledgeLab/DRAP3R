@@ -2,7 +2,7 @@
 
 ## Welcome to the DRAP3R repository
 
-DRAP3R (Direct Read and Analysis of RNA Polymerase III derived RNAs) is a custom nanopore direct RNA sequencing method and analysis framework that enables the specific and sensitive capture of nascent Pol III-derived RNAs (and a small subset of Pol II-derived ncRNAs) 
+[DRAP3R](https://www.biorxiv.org/content/10.1101/2025.03.07.641986v1) (Direct Read and Analysis of RNA Polymerase III derived RNAs) is a custom nanopore direct RNA sequencing method and analysis framework that enables the specific and sensitive capture of nascent Pol III-derived RNAs (and a small subset of Pol II-derived ncRNAs) 
 
 This repository contains all data files and code needed to reproduce the figures and analyses shown in our manuscript, which is currently available on bioRxiv.
 
@@ -24,7 +24,7 @@ Databases:
 ## Citation
 If you find this work useful, please cite:
 
-Verstraten R, Cetraro P, Fitzpatrick AH, Alwie Y, Frommeyer Y, Loliashvili E, Stein SC, Haussler S, Ouwendijk WJD, Depledge DP. Defining expansions and perturbations to the RNA polymerase III transcriptome by direct RNA nanopore sequencing. BioRxiv (2025) DOI==
+[Verstraten R, Cetraro P, Fitzpatrick AH, Alwie Y, Frommeyer Y, Loliashvili E, Stein SC, Haussler S, Ouwendijk WJD, Depledge DP. Defining expansions and perturbations to the RNA polymerase III transcriptome by direct RNA nanopore sequencing. BioRxiv (2025)](https://www.biorxiv.org/content/10.1101/2025.03.07.641986v1)
 
 
 
