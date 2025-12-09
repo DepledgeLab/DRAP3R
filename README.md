@@ -9,10 +9,9 @@ This repository contains an overview of the DRAP3R methodology, guidelines for h
 
 ### Folder descriptions
 
-Code:
+manuscript_figures
+- contains all scripts required for analyses and visualization of the data, along with links to source datasets hosted on Zenodo.
 
-
-<em> note that data files required for some scripts in Fig 1 and Fig S1 directories are hosted at [FigShare](https://doi.org/10.6084/m9.figshare.28554524.v1 )</em>
 <br>
 
 Databases: 
