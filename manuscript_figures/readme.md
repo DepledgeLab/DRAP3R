@@ -1,4 +1,4 @@
-![alt text](./img/drap3r.jpg "logo")
+![alt text](../img/drap3r.jpg "logo")
 
 Here you will find all R scripts used to generate the various figure panels in our DRAP3R manuscript.
 
