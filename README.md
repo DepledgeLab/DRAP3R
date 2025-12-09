@@ -6,18 +6,19 @@
 
 This repository contains an overview of the DRAP3R methodology, guidelines for how to analyze resulting data, as well as all data files and code needed to reproduce the figures and analyses included in our publication. 
 
-
 ### Folder descriptions
 
-manuscript_figures
-- contains all scripts required for analyses and visualization of the data, along with links to source datasets hosted on Zenodo.
-
-<br>
-
-Databases: 
+<b>databases: </b>
 - GTF file for Pol III transcribed RNAs
 - mature tRNA sequences in multi-fasta format (includes 5' and 3' splint adapters)
 
+<b>manuscript_figures:</b>
+- contains all scripts required for analyses and visualization of the data, along with links to source datasets hosted on Zenodo.
+
+
+### Overview of methodology
+
+<i>coming soon</i>
 
 
 ## Citation
