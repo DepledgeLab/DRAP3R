@@ -2,6 +2,8 @@
 
 ## Welcome to the DRAP3R repository
 
+[![DOI](https://zenodo.org/badge/875951974.svg)](https://doi.org/10.5281/zenodo.17876565)
+
 [DRAP3R](https://www.biorxiv.org/content/10.1101/2025.03.07.641986v1) (Direct Read and Analysis of RNA Polymerase III derived RNAs) is a custom nanopore direct RNA sequencing method and analysis framework that enables the specific and sensitive capture of nascent Pol III-derived RNAs (and a small subset of Pol II-derived ncRNAs) 
 
 This repository contains an overview of the DRAP3R methodology, guidelines for how to analyze resulting data, as well as all data files and code needed to reproduce the figures and analyses included in our publication. 
